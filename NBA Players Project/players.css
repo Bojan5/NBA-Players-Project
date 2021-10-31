@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: burlywood;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-top: 1px solid rgb(112, 109, 109);
+  border-bottom: 1px solid rgb(112, 109, 109);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.logo {
+  width: 70px;
+  height: 40px;
+  background: url("./nba_PNG13.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+li {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 1.2rem;
+}

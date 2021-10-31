@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Players page</title>
+    <link rel="stylesheet" href="./players.css" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="logo"></div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="players.html">NBA Players</a></li>
+        <li><a href="my_team.html">My team</a></li>
+      </ul>
+    </nav>
+
+    <img src="loading-buffering.gif" alt="" id="loading" />
+    <div>
+      <label for="position">Player Position:</label>
+      <select name="position" id="position">
+        <option value="f">C</option>
+        <option value="f">F</option>
+        <option value="g">G</option>
+      </select>
+    </div>
+
+    <table id="players-table">
+      <tr>
+        <th>ID</th>
+        <th>Full Name</th>
+        <th>Position</th>
+        <th>Team</th>
+        <th>City</th>
+      </tr>
+    </table>
+    <script src="fetchplayers.js"></script>
+  </body>
+</html>

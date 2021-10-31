@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #527cb3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+label {
+  font-size: 21px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  text-shadow: #fff 1px 1px 3px;
+  letter-spacing: 1.4px;
+}
+[name="username"] {
+  background-color: #000;
+  color: #fff;
+  width: 200px;
+  height: 25px;
+  font-size: 16px;
+  letter-spacing: 1.8px;
+}
+[type="submit"] {
+  height: 25px;
+  font-size: 16px;
+  letter-spacing: 1.4px;
+  background-color: #88cea4;
+  text-shadow: 1px 1px #d8e657;
+  border: 1px solid #000;
+  outline: 1px dotted #000;
+  cursor: pointer;
+  box-shadow: 5px 5px 30px #7843ce inset;
+}
+[type="submit"]:active {
+  border: 3px solid #000;
+  font-size: 12px;
+}
+span {
+  color: #bf3632;
+  font-size: 20px;
+  letter-spacing: 1.2px;
+  font-weight: 400;
+}
